@@ -13,7 +13,6 @@ const PostDetails = ({ post }) => {
         <p>PostId: {post?.id}</p>
         <h2 className="card-title">Title: {post?.title}</h2>
         <p>Post: {post?.body}</p>
-
         <button onClick={handleBack} className="btn btn-accent">
           Back to post
         </button>

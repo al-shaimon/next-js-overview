@@ -3,7 +3,7 @@ import Post from '../../Components/Post/Post';
 const Posts = ({ posts }) => {
   console.log(posts);
   return (
-    <div>
+    <div className=' mx-10'>
       <h1 className="text-2xl">The number of posts {posts.length}</h1>
       {posts.map((post) => (
         <Post key={post.id} post={post}></Post>
